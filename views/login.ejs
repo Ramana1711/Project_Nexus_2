@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewpoint" content="width-device-width, initial-scale=1.0;" />
+    <title>Login Page for Ramestro</title>
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <div class="div form-container">
+      <h1>Login</h1>
+      <form action="/login" method="post">
+        <div class="form-group">
+          <label for="User Name">UserName:</label>
+          <input
+            type="text"
+            id="un"
+            name="username"
+            placeholder="User Name"
+            required
+            autocomplete="off"
+          />
+        </div>
+        <div class="div form-group">
+          <label for="Password">Password:</label>
+          <input
+            type="password"
+            id="ps"
+            name="password"
+            placeholder="Password"
+            required
+          />
+        </div>
+        <button type="submit" class="submit-btn">Login</button>
+      </form>
+      <p>Don't have account click here to <a href="signup"> signup</a></p>
+    </div>
+  </body>
+</html>

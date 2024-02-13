@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewpoint" content="width-device-width, initial-scale=1.0;" />
+    <title>SignUp Page for Ramestro</title>
+    <link rel="stylesheet" href="style1.css" />
+  </head>
+  <body>
+    <div class="div form-container">
+      <h1>SignUp</h1>
+      <form action="/signup" method="post">
+        <div class="form-group">
+          <label for="User Name">UserName:</label>
+          <input
+            id="un"
+            type="text"
+            name="username"
+            placeholder="User Name"
+            required
+            autocomplete="off"
+          />
+        </div>
+        <div class="form-group">
+          <label for="Email">Email:</label>
+          <input
+            id="em"
+            name="email"
+            type="email"
+            placeholder="Email"
+            required
+          />
+        </div>
+        <div class="form-group">
+          <label for="Password">Password:</label>
+          <input
+            type="password"
+            id="ps"
+            name="password"
+            placeholder="Password"
+            required
+          />
+        </div>
+        <div class="form-group">
+          <label for="Confirm Password">ConfirmPassword:</label>
+          <input
+            type="password"
+            id="ps"
+            name="confirmpassword"
+            placeholder="Confirm Password"
+            required
+          />
+        </div>
+        <button type="submit" class="submit-btn">SignUp</button>
+      </form>
+      <p>Done!! click here to <a href="/"> login</a></p>
+    </div>
+  </body>
+</html>
